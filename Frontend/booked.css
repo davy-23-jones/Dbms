@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1867142.jpg");
+}
+
+.booked{
+    color:white;
+    background-color: black;
+    text-align: center;
+    text-decoration: double;
+    font-weight: bold;
+    padding:10px 10px;
+    margin-top:10%;
+    margin-left:30%;
+    width:500px;
+    height:200px;
+}
+

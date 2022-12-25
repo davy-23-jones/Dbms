@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://i.imgur.com/82Wk3ka.jpg");
+    background-position-y:100px ;    
+}
+
+
+
+.heading a{
+    color:beige;
+    background-color:rgb(56, 54, 54);
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(32, 26, 26, 0.2);
+    position: absolute;
+    height: 60px;
+    width: 400px;
+    margin-left:500px;
+    margin-right:500px;
+    font-size:50px;
+    text-align: center;
+  padding: 20px 5px;
+  text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.search-bar{
+    position:absolute;
+    top:60px;
+    right:60px;
+    background-color: white;
+}
+
+.button1 {
+    position:absolute;
+    top:60px;
+    right:20px;
+    border: none;
+    color: orange;
+    text-align: center;
+    background-color: black;
+    font-size: 16px;
+  }
+
+
+button{
+    background-color:rgb(56, 54, 54);
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    height: 70px;
+    width: 120px;
+        border-color:rgb(11, 11, 11);
+    border-width: 3px;
+    border-style: groove;
+
+}
+
+button:hover {
+    background-color: rgb(16, 16, 16);
+  }
+button:hover span {
+    padding-right: 25px;
+}
+
+
+.navigation{
+  background-color: rgb(49, 48, 48);
+  height:30px;
+  width:300px;
+  margin-top:50px;
+  padding:10px 0px;
+}
+
+
+.navigation a{
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+
+.navigation a:hover{
+  color:white;
+  background-color: rgb(14, 14, 14);
+}
+
+.navgigation a.active{
+  background-color:grey;
+}
+
+.heading a:hover{
+  color:white;
+  background-color:black;
+}

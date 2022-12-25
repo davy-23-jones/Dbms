@@ -1,0 +1,116 @@
+body{
+    background-image: url("https://preview.redd.it/70ijn7apqvh11.jpg?auto=webp&s=eebfb1556df6807eafa03fbc6533aa50d58fad5d");
+}
+
+img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.heading{
+    color:black;
+    background-color: white;
+    text-align:center;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns:repeat(3, fr);
+    gap:10px;
+    grid-auto-rows:minmax(100px, auto);
+}
+.movie1{
+    color:white;
+    width:400px;
+    grid-column:1/3;
+    grid-row:1;
+}
+.movie2{
+    color:white;
+    width:400px;
+    grid-column:2/3;
+    grid-row:1;
+}
+.movie3{
+    color:white;
+    width:400px;
+    grid-column:3/3;
+    grid-row:1;
+}
+.movie4{
+    color:white;
+    width:400px;
+}
+.movie5{
+    color:white;
+    width:400px;
+}
+.movie6{
+    color:white;
+    width:400px;
+}
+.movie7{
+    color:white;
+    width:400px;
+}
+.movie8{
+    color:white;
+    width:400px;
+}
+.movie9{
+    color:white;
+    width:400px;
+}
+.movie10{
+    color:white;
+    width:400px;
+}
+.movie11{
+    color:white;
+    width:400px;
+}
+
+.search-bar{
+    position:absolute;
+    top:60px;
+    right:60px;
+    background-color: white;
+}
+.button1 {
+    position:absolute;
+    top:60px;
+    right:20px;
+    border: none;
+    color: orange;
+    text-align: center;
+    background-color: black;
+    font-size: 16px;
+  }
+  .navigation{
+    background-color: rgb(49, 48, 48);
+    height:30px;
+    width:300px;
+    margin-top:0px;
+    padding: 10px 0px;
+  }
+  
+  
+  .navigation a{
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  
+  
+  .navigation a:hover{
+    color:white;
+    background-color: rgb(26, 26, 26);
+  }
+  
+  .navgigation a.active{
+    background-color:grey;
+  }
+
