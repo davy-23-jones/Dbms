@@ -1,0 +1,17 @@
+body{
+   background-image: url("https://t3.ftcdn.net/jpg/03/25/68/88/360_F_325688836_miB4OhosXN76nDCAMRK0vyinpmSI6C4i.jpg");
+
+}
+
+.about{
+    color:rgb(12, 0, 0);
+    background-color: rgb(255, 252, 252);
+    text-align: center;
+    text-decoration: double;
+    font-weight: bold;
+    padding:30px 30px;
+    margin-top:10%;
+    margin-left:25%;
+    width:700px;
+    height:300px;
+}
